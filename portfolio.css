@@ -1,0 +1,171 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#fff;
+}
+body,html{
+    height:100%;
+    width:100%;
+    
+}
+#nav{
+    height:100px;
+    width:100%;
+    border-bottom: 1px solid;
+    background-color:rgb(4, 119, 164);
+    border-color: rgba(240, 248, 255, 0.745);
+    color:bisque;
+    
+
+}
+
+#nav h1{
+    text-align: center;
+    font-weight: 600;
+    padding:10px;
+}
+#navpart1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding:15px;
+    
+}
+#nav h1:hover{
+    cursor: pointer;
+    color:rgb(27, 8, 76);
+
+
+}
+#navpart1 h4:hover{
+    cursor: pointer;
+    color:rgb(27, 8, 76);
+    background-color:rgb(27, 8, 76) ;
+    font-size: large;
+
+}
+
+#parent {
+    height:70vh;
+    width:100vw;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(191, 213, 223);
+    color: #fff;
+    
+}
+#Linkedin{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#btn{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+h5{
+    text-align: center;
+    font-size: large;
+}
+
+#parent h1{
+    text-align: center;
+     font-size:37px;
+     padding:50px;
+}
+span{
+    font-size:80px;
+    font-weight: bold;
+}  
+
+#btn{
+    text-align: center;
+    padding: 22px;
+}
+button{
+    text-align: center;
+    background-color: rgb(53, 111, 134);
+    color:aliceblue;
+    border-radius: 15px;
+    font-weight: bold;
+    border-width: 5px;
+    font-size: 35px;
+    border-color: aliceblue;
+    
+}
+button:hover{
+    color:antiquewhite;
+    background-color:rgb(13, 3, 104);
+    cursor: pointer;
+}
+
+ 
+#footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(4, 119, 164);
+    padding:7px 20px;
+    position:absolute;
+    bottom: 0%;
+    width:100vw;
+    height: 100px;
+    justify-content: flex-start;
+    display: flex;
+    
+    
+}
+.box{
+    height: 20px;
+    width: 45%;
+    position:relative;
+    
+
+}
+.box h5{
+    color:rgb(53, 111, 134);
+    font-size:25px;
+    font-weight: bold;
+    padding:23px;
+}
+/* define the animation */
+@keyframes move{
+    0%{
+        left: 0;
+    }
+    50%{
+        left:50%;
+        /* background-color: rgb(143, 197, 221); */
+    }
+    100%{
+        left:100%;
+        /* background-color: rgb(191, 213, 223); */
+    }
+}
+
+/* Apply the animation */
+.box{
+    animation: move 4s infinite;
+}
+i{
+    color:rgba(0, 0, 0, 0.721);
+    font-size: larger;
+}
+
+@media (max-width: 600px){
+    #nav{
+        background-color:blueviolet;
+    }
+    #footer{
+        background-color:blueviolet;
+
+    }
+    #parent{
+        background-color:rgb(171, 120, 219);
+    }
+    
+}
+ 
